@@ -1,0 +1,24 @@
+.features-acceleration__text-inner, .interior-characteristic__text-inner {
+  font-family: Montserrat-Regular;
+  font-weight: 400;
+}
+
+.main__text, .information__discription, .safety__text-description {
+  font-family: Montserrat-Medium;
+  font-weight: 500;
+}
+
+header, h1, h3, h4 {
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+}
+
+.features, .interior-characteristic__text, .safety-total__stars, .protection-text, .protection__crash-text-about {
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+}
+
+.test-btn, .test-order__btn, .order, .safety-rank-list__item {
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+}
