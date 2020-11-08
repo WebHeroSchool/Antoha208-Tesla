@@ -1,25 +1,39 @@
-.features-acceleration__text-inner, .interior-characteristic__text-inner {
-  font-family: Montserrat-Regular;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.main__text, .information__discription, .safety__text-description {
-  font-family: Montserrat-Medium;
-  font-weight: 500;
-  font-style: normal;
-}
-
-header, h1, h3, h4, .features, .interior-characteristic__text, .safety-total__stars, .protection-text, .protection__crash-text-about {
-  font-family: Montserrat-SemiBold;
+h1, h3, h4,
+.nav,
+.features-acceleration,
+.features-range,
+.interior-characteristic__text,
+.safety-total__stars,
+.protection-text,
+.protection__crash-text-about {
+  font-family: 'Montserrat-SemiBold';
   font-weight: 600;
-  font-style: normal;
 }
 
-.features-test-btn, .features-test-order__btn, .order, .safety-rank-list__item {
-  font-family: Montserrat-Bold;
+.features-test-btn__text,
+.features-test-order__btn,
+.order__button,
+.safety-rank-list__item {
+  font-family: 'Montserrat-Bold';
   font-weight: 700;
-  font-style: normal;
+}
+
+.main__text,
+.information__discription,
+.safety__text-description {
+  font-family: 'Montserrat-Medium';
+  font-weight: 500;
+}
+
+.features-acceleration__text-inner,
+.features-range__text-inner,
+.interior-characteristic__text-inner {
+  font-family: 'Montserrat-Regular';
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .nav {
