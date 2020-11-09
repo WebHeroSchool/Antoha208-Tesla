@@ -1,7 +1,7 @@
 h1, h3, h4,
 .nav,
-.features-acceleration,
-.features-range,
+.features-acceleration__text,
+.features-range__text,
 .interior-characteristic__text,
 .safety-total__stars,
 .protection-text,
@@ -10,10 +10,11 @@ h1, h3, h4,
   font-weight: 600;
 }
 
-.features-test-btn__text,
+.features-test-btn-text,
 .features-test-order__btn,
 .order__button,
-.safety-rank-list__item {
+.order-learn__icon,
+.safety-rank-list__item li {
   font-family: 'Montserrat-Bold';
   font-weight: 700;
 }
@@ -27,7 +28,7 @@ h1, h3, h4,
 
 .features-acceleration__text-inner,
 .features-range__text-inner,
-.interior-characteristic__text-inner {
+.interior-characteristic__inner {
   font-family: 'Montserrat-Regular';
   font-weight: 400;
 }
