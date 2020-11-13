@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./style.css">
     <title>Model S</title>
@@ -11,45 +12,49 @@
       <div class="nav">
         <img class="nav__label" src=img\Tesla-Wordmark-Red.png width="166" height="51" alt="Tesla">
         <ul class="nav-list">
-          <li class="nav-list__item">Model S</li>
-          <li class="nav-list__item">Model X</li>
-          <li class="nav-list__item">Model 3</li>
-          <li class="nav-list__item">Roadster</li>
-          <li class="nav-list__item">Energy</li>
+          <li class="nav-list__item"><a href="#">Model S</a></li>
+          <li class="nav-list__item"><a href="#">Model X</a></li>
+          <li class="nav-list__item"><a href="#">Model 3</a></li>
+          <li class="nav-list__item"><a href="#">Roadster</a></li>
+          <li class="nav-list__item"><a href="#">Energy</a></li>
         </ul>
-        <ul class="nav-sign">
-          <li class="nav-sign__store">Магазин</li>
-          <li class="nav-sign__enter">Войти</li>
-        </ul>
-        <div class="menu">
-          <a href="#" class="menu-btn">
-            <span class="menu-btn__span">
-            </span>
-          </a>
+        <div class="nav-part">
+          <ul class="nav-part__sign">
+            <li class="nav-part__sign-store"><a href="#">Магазин</a></li>
+            <li class="nav-part__sign-enter"><a href="#">Войти</a></li>
+          </ul>
+          <div class="nav-part__menu">
+            <a href="#" class="nav-part__menu-btn">
+              <span class="nav-part__menu-btn-span">
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
     <section class="main">
-      <h1 class="main__title">Model S</h1>
+      <h1 class="main__title" style="text-align: center">Model S</h1>
       <div class="main__text">Добро пожаловать в будущее!</div>
-      <div class="main-bg__wordmark">
+      <div class="main-bg__wormark"></div>
       <div class="main-bg__car"></div>
-      </div>
     </section>
     <section class="features">
       <div class="features-acceleration">
-      <img class="features-acceleration__icon" src=img\Speed.png width="46" height="34,13" alt="speedometer">
-        <p class="features-acceleration__text"><b><big>2,7</big> сек</b> <p class="features-acceleration__text-inner">0-100 км/час
+        <img class="features-acceleration__icon" src=img\Speed.png alt="speedometer">
+        <p class="features-acceleration__text">2,7</p>
+        <p class="features-acceleration__textin">сек</p>
+          <p class="features-acceleration__text-inner">0-100 км/час</p>
       </div>
       <div class="features-range">
-      <img class="features-range__icon" src=img\Road.png icon.png width="30,5" height="50" alt="road">
-        <p class="features-range__text"><b><big>632</big> км</b> <p class="features-range__text-inner">запас хода
+        <img class="features-range__icon" src=img\Road.png icon.png alt="road">
+        <p class="features-range__text">632</p>
+          <p class="features-range__textin">км</p>
+          <p class="features-range__text-inner">запас хода</p>
       </div>
-    </section>
-    <section class="test">
-      <button class="test-btn" style="text-align: right"><img class="test-btn__icon" src=img\steering-wheel.png width="22" height="22" alt="icon">ТЕСТ-ДРАЙВ
+      <button class="features-test-btn"><img class="features-test-btn__icon" src=img\steering-wheel.png width="22" height="22" alt="icon">
+        <p class="features-test-btn__text">ТЕСТ-ДРАЙВ</p>
       </button>
-      <a href="#" class="test-order__btn">ЗАКАЗАТЬ</a>
+      <a href="#" class="features-test-order__btn">ЗАКАЗАТЬ</a>
     </section>
     <section class="vector">
       <div class="vector__arrow"></div>
@@ -74,19 +79,22 @@
         <section class="interior">
           <div class="interior-characteristic">
             <img class="interior-characteristic__display" src=img\screen.png width="36" height="53" alt="display">
-            <p class="interior-characteristic__text"><big><b>17 дюймов</b></big> <p class="interior-characteristic__text-inner">Большой дисплей
-            </div>
+            <p class="interior-characteristic__text">17 дюймов</p>
+            <p class="interior-characteristic__inner">Большой дисплей</p>
+          </div>
           <div class="interior-characteristic">
             <img class="interior-characteristic__wifi" src=img\wifi.png width="44" height="34" alt="wifi">
-            <p class="interior-characteristic__text"><big><b>Беспроводное</b></big> <big><b>обновление ПО</b></big> <p class="interior-characteristic__text-inner">Повышенная функциональность
+            <p class="interior-characteristic__text">Беспроводное обновление ПО</p>
+            <p class="interior-characteristic__inner">Повышенная функциональность</p>
           </div>
           <div class="interior-characteristic">
             <img class="interior-characteristic__bag" src=img\bag.png width="36" height="52" alt="bag">
-            <p class="interior-characteristic__text"><big><b>894 литра</b></big> <p class="interior-characteristic__text-inner">Объем грузового пространства
+            <p class="interior-characteristic__text">894 литра</p>
+            <p class="interior-characteristic__inner">Объем грузового пространства</p>
           </div>
         </section>
         <section class="order">
-            <button class="order-learn" style="text-align: right"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
+            <button class="order-learn"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
             <a href="#" class="order__button">ЗАКАЗАТЬ</a>
         </section>
     </aside>
@@ -118,7 +126,7 @@
         </div>
     </section>
     <section class="order">
-        <button class="order-learn" style="text-align: right"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
+        <button class="order-learn"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
         <a href="#" class="order__button">ЗАКАЗАТЬ</a>
     </section>
     <section class="protection">

@@ -1,24 +1,433 @@
-.features-acceleration__text-inner, .interior-characteristic__text-inner {
-  font-family: Montserrat-Regular;
-  font-weight: 400;
+h1, h3, h4,
+.nav,
+.features-acceleration__text,
+.features-acceleration__textin,
+.features-range__text,
+.features-range__textin,
+.interior-characteristic__text,
+.safety-total__stars,
+.protection-text,
+.protection__crash-text-about {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
 }
 
-.main__text, .information__discription, .safety__text-description {
-  font-family: Montserrat-Medium;
+.features-test-btn__text,
+.features-test-order__btn,
+.order,
+.order-learn,
+.safety-rank-list {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+}
+
+.main__text,
+.information__discription,
+.safety__text-description {
+  font-family: "Montserrat-Medium";
   font-weight: 500;
 }
 
-header, h1, h3, h4 {
-  font-family: Montserrat-SemiBold;
-  font-weight: 600;
+.features-acceleration__text-inner,
+.features-range__text-inner,
+.interior-characteristic__inner {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
 }
 
-.features, .interior-characteristic__text, .safety-total__stars, .protection-text, .protection__crash-text-about {
-  font-family: Montserrat-SemiBold;
-  font-weight: 600;
+body {
+  overflow-x: hidden;
 }
 
-.test-btn, .test-order__btn, .order, .safety-rank-list__item {
-  font-family: Montserrat-Bold;
-  font-weight: 700;
+.nav {
+  display: flex;
+  Width: 1397, 28px;
+  Height: 51px;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 23px 0px 35px 33.72px;
+  padding-top: 1px;
+}
+
+.nav__label, .nav-list, .nav-part {
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.nav-label {
+  padding-left: 2px;
+}
+
+.nav-part {
+  position: relative;
+  max-width: 150px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  margin: 0px;
+}
+
+.nav-list {
+  align-items: center;
+  margin: 0px 33px 0px 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 0px;
+  margin-top: 0;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.nav ul li a:hover {
+  border-bottom: 2px solid red;
+  border-radius: 9%;
+  padding-bottom: 6px;
+}
+
+.nav-part ul li a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  margin: 0px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.nav-part__sign {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  list-style: none;
+}
+
+.nav-part__sign-store {
+  padding-right: 12px;
+}
+
+.nav-part__sign-enter {
+  padding-right: 9px;
+}
+
+.nav-part__menu {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.nav-part__menu-btn {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  margin-left: -2px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.nav-part__menu-btn:hover {
+  transition: 0.5s;
+  opacity:1;
+  background-color: gray;
+}
+
+.nav-part__menu-btn span,
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1.5px;
+  left: 50%; margin-left: -11.5px;
+  width: 23px;
+  height: 3px;
+  background-color: red;
+  opacity: 1;
+}
+
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  content: '';
+}
+
+.nav-part__menu-btn span::before {
+  transform: translateY(-6px);
+}
+
+.nav-part__menu-btn span::after {
+  transform: translateY(6px);
+}
+
+.main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 1521px;
+  height: 594px;
+  left: -74px;
+}
+
+.main__title {
+  font-size: 90px;
+  position: absolute;
+  justify-content: center;
+  margin: 25px 0px 0px 48px;
+}
+
+.main__text {
+  display: flex;
+  position: absolute;
+  width: 241px;
+  height: 19px;
+  top: 120px;
+  margin: 5px 0px 0px 48px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.main-bg__wormark {
+  display: flex;
+  position: absolute;
+  width: 1504px;
+  height: 467px;
+  left: 25px;
+  top: 25px;
+  background: url("img/Tesla-Wordmark-Red b.png") center/95%  no-repeat;
+  z-index: -1;
+}
+
+.main-bg__car {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  position: absolute;
+  width: 968px;
+  height: 450px;
+  left: 265px;
+  bottom: -23px;
+  background: url("img/tesla.png") center/100% no-repeat;
+}
+
+.features {
+  display: flex;
+  width: 65%;
+  height: 55px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  transform: translateY(61px);
+}
+
+.features-acceleration, .features-range, .features-test-btn, .features-test-order__btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.features-acceleration {
+  justify-content: flex-end;
+  align-items: center;
+  width: 150px;
+  height: 56px;
+  background-color: white;
+  padding: 0;
+  margin-bottom: 0px;
+  transform: translateX(61px) translateY(1px);
+}
+
+.features-range {
+  justify-content: flex-end;
+  align-items: center;
+  width: 140px;
+  height: 58px;
+  background-color: white;
+  padding-right: 7px;
+  transform: translateX(45px) translateY(3px);
+}
+
+.features-acceleration:hover, .features-range:hover {
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.features-test-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 22px;
+  transform: translateX(61px) translateY(6px);
+}
+
+.features-test-btn:hover {
+  cursor: pointer;
+  width: 110px;
+  transition: 0.5s;
+}
+
+.features-test-order__btn:hover {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+button {
+  border: 0;
+}
+
+.features-acceleration__text,
+.features-acceleration__textin,
+.features-acceleration__text-inner,
+.features-acceleration__icon,
+.features-range__text,
+.features-range__textin,
+.features-range__text-inner,
+.features-range__icon,
+.features-test-btn__text,
+.features-test-btn__icon  {
+  position: absolute;
+}
+
+.features-acceleration__icon,
+.features-range__icon,
+.features-test-btn__icon {
+  display: inline-block;
+  left: 0px;
+}
+
+.features-test-btn__icon {
+  top: 2px;
+}
+
+.features-acceleration__icon {
+  width: 50px;
+  height: 37px;
+  bottom: 2px;
+}
+
+.features-range__icon {
+  width: 30,5px;
+  height: 50px;
+  bottom: 2px;]
+}
+
+.features-acceleration__text,
+.features-range__text {
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  justify-content: center;
+  top: 0%;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 35px;
+}
+
+.features-acceleration__text {
+    width: 60%;
+}
+
+.features-range__text {
+  width: 65%;
+}
+
+.features-acceleration__textin,
+.features-range__textin, {
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  right: 0%;
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+.features-acceleration__text-inner,
+.features-range__text-inner {
+  display: inline-block;
+  bottom: 0%;
+  justify-content: center;
+  align-self: flex-start;
+  font-size: 12px;
+}
+
+.features-acceleration__text-inner {
+  left: 40%;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.features-range__text-inner {
+  right: 24px;
+  left: 30%;
+  margin: 0;
+  bottom: 2px;
+}
+
+.features-test-btn__text {
+  font-size: 13px;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.features-test-order__btn {
+  justify-content: center;
+  width: 157px;
+  height: 35px;
+  color: red;
+  border: 2px solid red;
+  margin-bottom: 5px;
+  margin-right: 35px;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.vector {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-left: 10px;
+  position: absolute;
+  top: 848px;
+}
+
+.vector__arrow {
+  display: block;
+  width: 28px;
+  height: 15px;
+  background: url("img/Vector.png") center no-repeat;
+}
+
+.vector__arrow:hover {
+  cursor: pointer;
+  transform: translateY(8px);
+  transition: 0,5s;
+}
+
+.safety-rank-list {
+  list-style: none;
 }
