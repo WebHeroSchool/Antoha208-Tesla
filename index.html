@@ -10,18 +10,18 @@
   <body>
     <header class="header">
       <div class="nav">
-        <img class="nav__label" src=img\Tesla-Wordmark-Red.png width="166" height="51" alt="Tesla">
+        <div class="nav__label"></div>
         <ul class="nav-list">
-          <li class="nav-list__item-models"><a href="#">Model S</a></li>
-          <li class="nav-list__item-modelx"><a href="#">Model X</a></li>
-          <li class="nav-list__item-model3"><a href="#">Model 3</a></li>
-          <li class="nav-list__item-roadster"><a href="#">Roadster</a></li>
-          <li class="nav-list__item-energy"><a href="#">Energy</a></li>
+          <li class="nav-list__item"><a href="#">Model S</a></li>
+          <li class="nav-list__item"><a href="#">Model X</a></li>
+          <li class="nav-list__item"><a href="#">Model 3</a></li>
+          <li class="nav-list__item"><a href="#">Roadster</a></li>
+          <li class="nav-list__item"><a href="#">Energy</a></li>
         </ul>
         <div class="nav-part">
           <ul class="nav-part__sign">
-            <li class="nav-part__sign-store"><a href="#">Магазин</a></li>
-            <li class="nav-part__sign-enter"><a href="#">Войти</a></li>
+            <li class="nav-part__sign-item"><a class:"nav-part__sign-item-store" href="#">Магазин</a></li>
+            <li class="nav-part__sign-item"><a class:"nav-part__sign-item-enter" href="#">Войти</a></li>
           </ul>
           <div class="nav-part__menu">
             <a href="#" class="nav-part__menu-btn">
@@ -35,27 +35,34 @@
     <section class="main">
       <h1 class="main__title">Model S</h1>
       <div class="main__text">Добро пожаловать в будущее!</div>
-      <div class="main-bg__wormark"></div>
       <div class="main-bg__car"></div>
     </section>
-    <section class="features">
-      <div class="features-acceleration">
-        <img class="features-acceleration__icon" src="img/Speed.png" alt="speedometer" width="46" height="34.13">
-        <p class="features-acceleration__text">2,7</p>
-        <p class="features-acceleration__textin">сек</p>
-          <p class="features-acceleration__text-inner">0-100 км/час</p>
+    <section class="section">
+      <div class="wrap">
+        <div class="wrap-features">
+          <div class="wrap-features__icon-speed"></div>
+          <div class="wrap-features-inner">
+            <div class="wrap-features-inner__text">2,7
+              <p class="wrap-features-inner__textin">сек</p></div>
+              <p class="wrap-features-inner__bottom">0-100 км/час</p>
+            </div>
+          </div>
+          <div class="wrap-features">
+            <div class="wrap-features__icon-road"></div>
+            <div class="wrap-features-inner">
+              <div class="wrap-features-inner__text">632
+                <p class="wrap-features-inner__textin">км</p></div>
+              <p class="wrap-features-inner__bottom">запас хода</p>
+            </div>
+          </div>
+        </div>
+      <div class="features-btn">
+        <div class="features-btn-test">
+          <div class="features-btn-test__icon"></div>
+          <p class="features-btn-test__text">ТЕСТ-ДРАЙВ</p>
+        </div>
+        <a href="#" class="features-btn__order">ЗАКАЗАТЬ</a>
       </div>
-      <div class="features-range">
-        <img class="features-range__icon" src=img/Road.png alt="road"><img class="features-range__icon-mobile" src=img/Road-icon-ipad.png width="43.71" height="71.66" alt="road-mobile">
-        <p class="features-range__text">632</p>
-          <p class="features-range__textin">км</p>
-          <p class="features-range__text-inner">запас хода</p>
-      </div>
-      <button class="features-test-btn"><img class="features-test-btn__icon" src=img/steering-wheel.png width="22" height="22" alt="icon"><img class="features-test-btn__icon-red" src=img/steering-wheel(red).png width="30.37" height="30.37" alt="icon red">
-        <p class="features-test-btn__text">ТЕСТ-ДРАЙВ</p>
-      </button>
-      </button>
-      <a href="#" class="features-test-order__btn">ЗАКАЗАТЬ</a>
     </section>
     <section class="vector">
       <div class="vector__arrow"></div>
