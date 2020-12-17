@@ -1,24 +1,1040 @@
-.features-acceleration__text-inner, .interior-characteristic__text-inner {
-  font-family: Montserrat-Regular;
-  font-weight: 400;
+h1, h3, h4,
+.nav,
+.wrap-features-inner__text,
+.wrap-features-inner__textin,
+.information-interior-characteristic__text,
+.information-interior-characteristic__textin,
+.information-interior-characteristic__textin-po,
+.safety-total__stars,
+.safety-total__stars-in,
+.protection-text,
+.protection__crash-text-about {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
 }
 
-.main__text, .information__discription, .safety__text-description {
-  font-family: Montserrat-Medium;
+.features-btn-test__text,
+.features-btn__order,
+.information-order,
+.order,
+.order-learn,
+.information-order-learn,
+.safety-rank-list {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+}
+
+.main__text,
+.information__discription,
+.safety__text {
+  font-family: "Montserrat-Medium";
   font-weight: 500;
 }
 
-header, h1, h3, h4 {
-  font-family: Montserrat-SemiBold;
-  font-weight: 600;
+.wrap-features-inner__bottom,
+.information-interior-characteristic__inner {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
 }
 
-.features, .interior-characteristic__text, .safety-total__stars, .protection-text, .protection__crash-text-about {
-  font-family: Montserrat-SemiBold;
-  font-weight: 600;
+body {
+  width: 1440px;
+  margin: 0 auto;
 }
 
-.test-btn, .test-order__btn, .order, .safety-rank-list__item {
-  font-family: Montserrat-Bold;
-  font-weight: 700;
+.header {
+/*width: 93%;*/
+/*margin: 23px 35px 31px 30px;*/
+margin: 26px auto;
+}
+
+.nav {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.nav__label {
+width: 166px;
+height: 51px;
+background: url('img/Tesla-Wordmark-Red.png') center/contain no-repeat;
+}
+
+.nav-list {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 40%;
+list-style: none;
+margin: 0 auto;
+}
+
+.nav-list__item a {
+color: black;
+text-decoration: none;
+transition: 0.5s;
+}
+
+.nav ul li a:hover {
+  border-bottom: 2px solid red;
+  border-radius: 9%;
+  padding-bottom: 6px;
+}
+
+.nav-part {
+display: flex;
+justify-content: space-between;
+width: 16%;
+}
+
+.nav-part__sign {
+display: flex;
+width: 70%;
+justify-content: space-between;
+padding: 0;
+}
+
+.nav-part__sign-item {
+display: block;
+}
+
+.nav-part__sign-item,
+.nav-part__sign-item a {
+list-style: none;
+text-decoration: none;
+color: black;
+transition: 0.5s;ы
+}
+
+.nav-part__menu {
+position: relative;
+margin: 0px;
+justify-content: flex-end;
+}
+
+.nav-part__menu-btn {
+display: inline-block;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin-right: 0px;
+margin-left: 0px;
+background-color: white;
+position: relative;
+opacity: 1;
+transition: 0.5s;
+}
+
+.nav-part__menu-btn:hover {
+transition: 0.5s;
+opacity:1;
+background-color: gray;
+}
+
+.nav-part__menu-btn span,
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+position: absolute;
+top: 50%; margin-top: -1.5px;
+left: 50%; margin-left: -11.5px;
+width: 23px;
+height: 3px;
+background-color: red;
+opacity: 1;
+}
+
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+content: '';
+}
+
+.nav-part__menu-btn span::before {
+transform: translateY(-6px);
+}
+
+.nav-part__menu-btn span::after {
+transform: translateY(6px);
+}
+
+.main {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height: 660px;
+background: url('img/Tesla-Wordmark-Redb.png') 33% 15%/contain no-repeat;
+}
+
+.main-bg__car {
+display: flex;
+background: url('img/tesla.png') 42% 60%/contain no-repeat;
+height: 450px;
+width: 100%;
+margin: auto 0;
+}
+
+.main__title {
+font-size: 90px;
+margin: 20px 0px 0px 0px;
+}
+
+.main__text {
+font-size: 15px;
+}
+
+.section {
+display: flex;
+width: 62%;
+justify-content: space-around;
+margin: 0 auto;
+}
+
+.wrap {
+display: flex;
+justify-content: space-between;
+width: 45%;
+}
+
+.wrap-features {
+display: flex;
+align-items: flex-end;
+width: 41%;
+transition: 0.5s;
+}
+
+.wrap-features:hover {
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wrap-features__icon-speed {
+width: 37%;
+height: 43px;
+background: url('img/Speed.png') left/contain no-repeat;
+}
+
+.wrap-features__icon-road {
+width: 25%;
+height: 52px;
+background: url('img/Road.png') left/contain no-repeat;
+}
+
+.wrap-features-inner {
+display: flex;
+flex-direction: column;
+width: 63%;
+}
+
+.wrap-features-inner__text {
+display: flex;
+align-items: flex-end;
+font-size: 35px;
+}
+
+.wrap-features-inner__textin {
+font-size: 20px;
+padding: 0 0px 4px 5px;
+margin: 0 auto;
+}
+
+
+.wrap-features-inner__bottom {
+font-size: 12px;
+margin: auto 0;
+}
+
+.features-btn {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+width: 40%;
+margin: 0 5px;
+}
+
+.features-btn-test {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 41%;
+transition: 0.5s;
+margin: 0 auto;
+}
+
+.features-btn-test:hover {
+  cursor: pointer;
+  width: 120px;
+  transition: 0.5s;
+}
+
+.features-btn-test__icon {
+display: flex;
+width: 20%;
+height: 22px;
+background: url('img/steering-wheel.png') left/contain no-repeat;
+}
+
+.features-btn-test__text {
+font-size: 13px;
+}
+
+.features-btn__order {
+display: flex;
+height: 36px;
+width: 156px;
+font-size: 13px;
+color: #E51937;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+border: 2px solid #E51937;
+transition: 0.5s;
+}
+
+.features-btn__order:hover {
+transition: 0.5s;
+cursor: pointer;
+font-size: 20px;
+}
+
+.vector {
+display: flex;
+width: 100%;
+margin-top: 2%;
+}
+
+.vector__arrow {
+display: flex;
+width: 5%;
+height: 15px;
+background: url("img/Vector.png") center/contain no-repeat;
+margin: 0 auto;
+}
+
+.vector__arrow:hover {
+cursor: pointer;
+transform: translateY(8px);
+transition: 0.5s;
+}
+
+/*@media (max-width: 2560px) {
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  }
+}*/
+
+@media (max-width: 1440px) {
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  }
+
+.header {
+  width: 94%;
+  margin: 26px auto;
+  }
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.nav__label {
+  width: 166px;
+  height: 51px;
+  }
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 39%;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 38px;
+  }
+
+.nav-list__item a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  }
+
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  width: 16.5%;
+  }
+
+.nav-part__sign {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 0;
+  }
+
+.nav-part__sign-item {
+  display: block;
+  }
+
+.nav-part__sign-item,
+.nav-part__sign-item a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  }
+
+.nav-part__menu {
+  position: relative;
+  margin: 0px;
+  justify-content: flex-end;
+  }
+
+.nav-part__menu-btn {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+  position: relative;
+  opacity: 1;
+  transition: 0.5s;
+  }
+
+.nav-part__menu-btn:hover {
+  transition: 0.5s;
+  opacity:1;
+  background-color: gray;
+  }
+
+.nav-part__menu-btn span,
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1.5px;
+  left: 50%; margin-left: -11.5px;
+  width: 23px;
+  height: 3px;
+  background-color: red;
+  opacity: 1;
+  }
+
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  content: '';
+  }
+
+.nav-part__menu-btn span::before {
+  transform: translateY(-6px);
+  }
+
+.nav-part__menu-btn span::after {
+  transform: translateY(6px);
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 660px;
+  background-size: 99%;
+  background-position: 20% 15%;
+  }
+
+.main-bg__car {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  margin: auto 0;
+  }
+
+.main__title {
+  font-size: 90px;
+  margin-top: 20px;
+  }
+
+.main__text {
+  font-size: 15px;
+  }
+
+.section {
+  display: flex;
+  width: 62%;
+  justify-content: space-around;
+  margin: 0 auto;
+  }
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  }
+
+.wrap-features {
+  display: flex;
+  align-items: flex-end;
+  width: 41%;
+  }
+
+.wrap-features__icon-speed {
+  width: 37%;
+  height: 43px;
+  }
+
+.wrap-features__icon-road {
+  width: 25%;
+  height: 52px;
+  }
+
+.wrap-features-inner {
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+  }
+
+.wrap-features-inner__text {
+  display: flex;
+  align-items: flex-end;
+  font-size: 35px;
+  }
+
+.wrap-features-inner__textin {
+  font-size: 20px;
+  padding: 0 0px 4px 5px;
+  margin: 0 auto;
+  }
+
+
+.wrap-features-inner__bottom {
+  font-size: 12px;
+  margin: auto 0;
+  }
+
+.features-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 40%;
+  margin: 0 5px;
+  }
+
+.features-btn-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41%;
+  }
+
+.features-btn-test__icon {
+  display: flex;
+  width: 20%;
+  height: 22px;
+  }
+
+.features-btn-test__text {
+  font-size: 13px;
+  }
+
+.features-btn__order {
+  display: flex;
+  height: 36px;
+  width: 156px;
+  font-size: 13px;
+  color: #E51937;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #E51937;
+  }
+
+.vector {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  }
+
+.vector__arrow {
+  display: flex;
+  width: 5%;
+  height: 15px;
+  margin: 0 auto;
+  }
+
+.vector__arrow:hover {
+  cursor: pointer;
+  transform: translateY(8px);
+  transition: 0.5s;
+  }
+}
+
+@media (max-width: 769px) {
+
+body {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 96%;
+  margin: 26px auto;
+  }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.nav__label {
+  width: 166px;
+  height: 51px;
+  }
+
+.nav-list {
+  display: none;
+  }
+
+.nav-part__sign {
+  display: none;
+  }
+
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  }
+
+.nav-part__menu {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  }
+
+.nav-part__menu-btn {
+  display: inline-block;
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+  }
+
+.nav-part__menu-btn:hover {
+  transition: 0.5s;
+  opacity:1;
+  background-color: gray;
+  }
+
+.nav-part__menu-btn span,
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1.5px;
+  left: 50%; margin-left: -16.5px;
+  width: 33px;
+  height: 3px;
+  background-color: red;
+  opacity: 1;
+  }
+
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  content: '';
+  }
+
+.nav-part__menu-btn span::before {
+  transform: translateY(-10px);
+  }
+
+.nav-part__menu-btn span::after {
+  transform: translateY(10px);
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-position: 25% 41%;
+  background-size: 110%;
+  height: 625px;
+  }
+
+.main__title {
+  font-size: 90px;
+  margin: auto 0;
+  }
+
+.main__text {
+  display: none;
+  margin: auto 0;
+  }
+
+.main-bg__car {
+  display: flex;
+  height: 325px;
+  width: 100%;
+  background-position: bottom;
+  background-size: contain;
+  margin: auto 0;
+  }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  width: 66%;
+  justify-content: space-between;
+  }
+
+.wrap {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.wrap-features {
+  display: flex;
+  align-items: flex-end;
+  width: 43%;
+  }
+
+.wrap-features__icon-speed {
+  width: 47%;
+  height: 61px;
+  }
+
+.wrap-features__icon-road {
+  width: 32%;
+  height: 72px;
+  background-color: white;
+  background: url('img/Road-icon-ipad.png') 45% 55%/contain no-repeat;
+  }
+
+.wrap-features-inner {
+  display: flex;
+  flex-direction: column;
+  }
+
+.wrap-features-inner__text {
+  display: flex;
+  font-size: 50px;
+  }
+
+.wrap-features-inner__textin {
+  align-self: center;
+  font-size: 20px;
+  }
+
+
+.wrap-features-inner__bottom {
+  font-size: 12px;
+  vertical-align: text-top;
+  }
+
+.features-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.features-btn-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41%;
+  }
+
+.features-btn-test__icon {
+  display: flex;
+  width: 25%;
+  height: 31px;
+  background-color: white;
+  background: url('img/steering-wheel(red).png') 50%/contain no-repeat;
+  }
+
+.features-btn-test__text {
+  font-size: 16px;
+  color: #E51937;
+  }
+
+.features-btn__order {
+  display: flex;
+  height: 56px;
+  width: 221px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #E51937;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  margin-right: 5.5%;
+  }
+
+.vector {
+  display: flex;
+  width: 100%;
+  margin-top: 8%;
+  }
+
+.vector__arrow {
+  display: flex;
+  width: 5%;
+  height: 15px;
+  margin: 0 auto;
+  transition: 0.5s;
+  }
+
+.vector__arrow:hover {
+  cursor: pointer;
+  transform: translateY(8px);
+  }
+}
+
+@media (max-width: 376px) {
+
+body {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+.header {
+  width: 96%;
+  margin: 5px 3px 0px 2px;
+  }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.nav__label {
+  width: 138px;
+  height: 42px;
+  }
+
+.nav-list {
+  display: none;
+  }
+
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  width: 44px;
+  }
+
+.nav-part__sign {
+  display: none;
+  }
+
+.nav-part__menu {
+  position: relative;
+  width: 44px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  }
+
+.nav-part__menu-btn {
+  display: inline-block;
+  height: 46px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+  }
+
+.nav-part__menu-btn:hover {
+  transition: 0.5s;
+  opacity:1;
+  background-color: gray;
+  }
+
+.nav-part__menu-btn span,
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1.5px;
+  left: 50%; margin-left: -11.5px;
+  width: 23px;
+  height: 3px;
+  background-color: red;
+  opacity: 1;
+  }
+
+.nav-part__menu-btn span::before,
+.nav-part__menu-btn span::after {
+  content: '';
+  }
+
+.nav-part__menu-btn span::before {
+  transform: translateY(-6px);
+  }
+
+.nav-part__menu-btn span::after {
+  transform: translateY(6px);
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 318px; /*635px;*/
+  background-position: 40% 58%;
+  background-size: 113%;
+
+  }
+
+.main__title {
+  font-size: 50px;
+  margin-bottom: 0;
+  }
+
+.main__text {
+  display: flex;
+  font-size: 10px;
+  margin-top: 0;
+  }
+
+.main-bg__car {
+  display: flex;
+  height: 166px;
+  background-position: bottom;
+  background-size: contain;
+  margin-bottom: 1%;
+  }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 81%;
+  justify-content: space-around;
+  height: 170px;
+  }
+
+.wrap {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.wrap-features {
+  display: flex;
+  align-items: flex-end;
+  width: 45%;
+  }
+
+.wrap-features__icon-speed {
+  width: 37%;
+  height: 40px;
+  background-position: left;
+  background-size: contain;
+  }
+
+.wrap-features__icon-road {
+  width: 33%;
+  height: 44px;
+
+  }
+
+.wrap-features-inner {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  }
+
+.wrap-features-inner__text {
+  display: flex;
+  align-items: flex-end;
+  font-size: 27px;
+  }
+
+.wrap-features-inner__textin {
+  font-size: 15px;
+  margin: 0 auto;
+  align-self: flex-end;
+  }
+
+
+.wrap-features-inner__bottom {
+  font-size: 10px;
+  margin: auto 0;
+  }
+
+.features-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+
+  }
+
+.features-btn-test {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 41%;
+  }
+
+.features-btn-test__icon {
+  display: flex;
+  width: 18%;
+  height: 22px;
+  }
+
+.features-btn-test__text {
+  font-size: 13px;
+  }
+
+.features-btn__order {
+  display: flex;
+  height: 40px;
+  width: 160px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #E51937;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #E51937;
+  margin: 0;
+  }
+
+.vector {
+  display: flex;
+  width: 100%;
+  margin-top: 4%;
+  }
+
+.vector__arrow {
+  display: flex;
+  width: 5%;
+  height: 15px;
+  margin: 0 auto;
+  }
+
+.vector__arrow:hover {
+  cursor: pointer;
+  transform: translateY(8px);
+  transition: 0.5s;
+  }
 }
