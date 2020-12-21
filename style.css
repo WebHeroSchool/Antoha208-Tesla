@@ -343,7 +343,7 @@ body {
 
 .header {
   width: 94%;
-  margin: 26px auto;
+  margin: 24px auto;
   }
 
 .nav {
@@ -361,12 +361,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 39%;
+  width: 39.5%;
   min-width: 380px;
   list-style: none;
   margin: 0 auto;
-  padding-left: 38px;
-  padding-right: 10px;
+  padding-left: 47px;
+  /*padding-right: 10px;*/
   }
 
 .nav-list__item a {
@@ -386,7 +386,7 @@ body {
 
 .nav-part__sign {
   display: flex;
-  width: 70%;
+  width: 69%;
   justify-content: space-between;
   padding: 0;
   }
@@ -472,11 +472,13 @@ body {
 
 .main__title {
   font-size: 90px;
-  margin-top: 20px;
+  margin-top: 25px;
+  line-height: 1.3em;
   }
 
 .main__text {
   font-size: 15px;
+  line-height: 0.01em;
   }
 
 .section {
@@ -491,8 +493,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 45%;
-  margin: auto 1%;
-  margin-left: 0px;
+  margin: 6px 0px 0px 0px;
   }
 
 .wrap-features {
@@ -506,7 +507,7 @@ body {
 .wrap-features__icon-road {
   width: 34%;
   height: 52px;
-  background-position: center;
+  background-position: bottom;
   }
 
 .wrap-features-inner {
@@ -580,7 +581,7 @@ body {
 .vector {
   display: flex;
   width: 100%;
-  margin-top: 2%;
+  margin-top: 1.5%;
   }
 
 .vector__arrow {
@@ -1011,7 +1012,8 @@ body {
 .main__text {
   display: flex;
   font-size: 10px;
-  margin-top: 0;
+  line-height: 0.1em;
+  margin: 0 0 50px 0;
   }
 
 .main-bg__car {
@@ -1020,7 +1022,7 @@ body {
   width: 95%;
   background-position: bottom;
   background-size: contain;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   }
 
 .section {
@@ -1134,7 +1136,7 @@ body {
 
 .vector__arrow {
   display: flex;
-  width: 5%;
+  width: 10%;
   height: 15px;
   margin: 0 auto;
   }
