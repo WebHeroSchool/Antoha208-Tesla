@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./style.css">
     <title>Model S</title>
@@ -9,147 +10,148 @@
   <body>
     <header class="header">
       <div class="nav">
-        <img class="nav__label" src=img\Tesla-Wordmark-Red.png width="166" height="51" alt="Tesla">
+        <div class="nav__label"></div>
         <ul class="nav-list">
-          <li class="nav-list__item">Model S</li>
-          <li class="nav-list__item">Model X</li>
-          <li class="nav-list__item">Model 3</li>
-          <li class="nav-list__item">Roadster</li>
-          <li class="nav-list__item">Energy</li>
+          <li class="nav-list__item"><a href="#">Model S</a></li>
+          <li class="nav-list__item"><a href="#">Model X</a></li>
+          <li class="nav-list__item"><a href="#">Model 3</a></li>
+          <li class="nav-list__item"><a href="#">Roadster</a></li>
+          <li class="nav-list__item"><a href="#">Energy</a></li>
         </ul>
-        <ul class="nav-sign">
-          <li class="nav-sign__store">Магазин</li>
-          <li class="nav-sign__enter">Войти</li>
-        </ul>
-        <div class="menu">
-          <a href="#" class="menu-btn">
-            <span class="menu-btn__span">
-            </span>
-          </a>
+        <div class="nav-part">
+          <ul class="nav-part__sign">
+            <li class="nav-part__sign-item"><a class="nav-part__sign-item-store" href="#">Магазин</a></li>
+            <li class="nav-part__sign-item"><a class="nav-part__sign-item-enter" href="#">Войти</a></li>
+          </ul>
+          <div class="nav-part__menu">
+            <a href="#" class="nav-part__menu-btn">
+              <span class="nav-part__menu-btn-span">
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
     <section class="main">
       <h1 class="main__title">Model S</h1>
       <div class="main__text">Добро пожаловать в будущее!</div>
-      <div class="main-bg__wordmark">
       <div class="main-bg__car"></div>
-      </div>
     </section>
-    <section class="features">
-      <div class="features-acceleration">
-      <img class="features-acceleration__icon" src=img\Speed.png width="46" height="34,13" alt="speedometer">
-        <p class="features-acceleration__text"><b><big>2,7</big> сек</b> <p class="features-acceleration__text-inner">0-100 км/час
+    <section class="section">
+      <div class="wrap">
+        <div class="wrap-features">
+          <div class="wrap-features__icon-speed"></div>
+          <div class="wrap-features-inner">
+            <div class="wrap-features-inner__text">2,7
+                <p class="wrap-features-inner__textin">сек</p></div>
+              <p class="wrap-features-inner__bottom">0-100 км/час</p>
+            </div>
+          </div>
+          <div class="wrap-features">
+            <div class="wrap-features__icon-road"></div>
+            <div class="wrap-features-inner">
+              <div class="wrap-features-inner__text">632
+                <p class="wrap-features-inner__textin">км</p></div>
+              <p class="wrap-features-inner__bottom">запас хода</p>
+            </div>
+          </div>
+        </div>
+      <div class="features-btn">
+        <div class="features-btn-test">
+          <div class="features-btn-test__icon"></div>
+          <p class="features-btn-test__text">ТЕСТ-ДРАЙВ</p>
+        </div>
+        <a href="#" class="features-btn__order">ЗАКАЗАТЬ</a>
       </div>
-      <div class="features-range">
-      <img class="features-range__icon" src=img\Road.png icon.png width="30,5" height="50" alt="road">
-        <p class="features-range__text"><b><big>632</big> км</b> <p class="features-range__text-inner">запас хода
-      </div>
-    </section>
-    <section class="test">
-      <button class="test-btn" style="text-align: right"><img class="test-btn__icon" src=img\steering-wheel.png width="22" height="22" alt="icon">ТЕСТ-ДРАЙВ
-      </button>
-      <a href="#" class="test-order__btn">ЗАКАЗАТЬ</a>
     </section>
     <section class="vector">
       <div class="vector__arrow"></div>
     </section>
     <section class="model">
       <h3 class="model__title">Model S</h3>
-      <div class="model__bg"></div>
-    </section>
-    <aside class="information">
-      <h4 class="information__title">Будущее вождения</h4>
-        <p class="information__discription" text align: "left">Модель S обладает лучшей в своем
-          классе вместимостью: в машине
-           поместится до пяти взрослых и двух
-           детей. Оснащена cовременным
-           17-дюймовым сенсорным экраном.
-           Усовершенствованная шумовая
-           инженерия создает динамику звука,
-           сравнимую со студией звукозаписи, а
-           стеклянная крыша обеспечивает
-           просторный интерьер для каждого
-           пассажира.</p>
-        <section class="interior">
-          <div class="interior-characteristic">
-            <img class="interior-characteristic__display" src=img\screen.png width="36" height="53" alt="display">
-            <p class="interior-characteristic__text"><big><b>17 дюймов</b></big> <p class="interior-characteristic__text-inner">Большой дисплей
+      <aside class="information">
+        <section class="information-part">
+          <h4 class="information__title">Будущее вождения</h4>
+          <p class="information__discription">Модель S обладает лучшей в своем
+            классе вместимостью: в машине
+            поместится до пяти взрослых и двух
+            детей. Оснащена cовременным
+            17-дюймовым сенсорным экраном.
+            Усовершенствованная шумовая
+            инженерия создает динамику звука,
+            сравнимую со студией звукозаписи, а
+            стеклянная крыша обеспечивает
+            просторный интерьер для каждого
+            пассажира.</p>
+          <div class="information-interior">
+            <div class="information-wrap">
+              <div class="information-wrap__icon-display"></div>
+              <div class="information-wrap-inner">
+                <div class="information-wrap-inner__text">17
+                  <p class="information-wrap-inner__textin">дюймов</p></div>
+                <p class="information-wrap-inner__bottom">Большой дисплей</p>
+              </div>
             </div>
-          <div class="interior-characteristic">
-            <img class="interior-characteristic__wifi" src=img\wifi.png width="44" height="34" alt="wifi">
-            <p class="interior-characteristic__text"><big><b>Беспроводное</b></big> <big><b>обновление ПО</b></big> <p class="interior-characteristic__text-inner">Повышенная функциональность
+            <div class="information-wrap">
+              <div class="information-wrap__icon-wifi"></div>
+              <div class="information-wrap-inner">
+                <div class="information-wrap-inner__textin">Беспроводное обнавление ПО</div>
+                <p class="information-wrap-inner__bottom">Повышенная функциональность</p>
+              </div>
+            </div>
+            <div class="information-wrap">
+              <div class="information-wrap__icon-bag"></div>
+              <div class="information-wrap-inner">
+                <div class="information-wrap-inner__text">894
+                  <p class="information-wrap-inner__textin">литра</p></div>
+                <p class="information-wrap-inner__bottom">Объем грузового пространства</p>
+              </div>
+            </div>
           </div>
-          <div class="interior-characteristic">
-            <img class="interior-characteristic__bag" src=img\bag.png width="36" height="52" alt="bag">
-            <p class="interior-characteristic__text"><big><b>894 литра</b></big> <p class="interior-characteristic__text-inner">Объем грузового пространства
+          <div class="information-order">
+            <div class="information-order-learn">
+              <div class="information-order-learn__icon"></div>
+              <p class="information-order__text">УЗНАТЬ БОЛЬШЕ</p>
+            </div>
+            <a href="#" class="information-btn__order">ЗАКАЗАТЬ</a>
           </div>
         </section>
-        <section class="order">
-            <button class="order-learn" style="text-align: right"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
-            <a href="#" class="order__button">ЗАКАЗАТЬ</a>
-        </section>
-    </aside>
-    <section class="safety">
-      <h4 class="safety__title">Самый безопасный автомобиль в мире</h4>
-        <div class="safety__text">
-          <p class="safety__text-description" text align: "justify">Модель S достигла наивысшей оценки
-            безопасности любого автомобиля,
-            когда-либо испытанного, и установила
-            рекорд по наименьшей вероятности
-            травмы пассажиров - от несчастны
-            случаев на переднем, боковом, заднем
-            сидении и в ДТП с переворотом авто.</p>
-        </div>
-        <div class="safety-rank">
-          <h4 class="safety-rank__title">Оценка защиты:</h4>
-          <ul class="safety-rank-list">
-            <li class="safety-rank-list__item">Спереди<img class="safety-rank-list__star" src=img\Star.png width="25" height="25" alt="star"></li>
-            <li class="safety-rank-list__item">Сбоку</li>
-            <li class="safety-rank-list__item">Сбоку (стойка)</li>
-            <li class="safety-rank-list__item">Водитель</li>
-            <li class="safety-rank-list__item">Пассажир</li>
-          </ul>
-        </div>
-        <div class="safety-total">
-          <img class="safety-total__shield" src=img\security.png width="62" height="74" alt="shield">
-          <p class="safety-total__stars" text align: "center">5 звезд
-          безопасности</p>
-        </div>
-    </section>
-    <section class="order">
-        <button class="order-learn" style="text-align: right"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
-        <a href="#" class="order__button">ЗАКАЗАТЬ</a>
+      </aside>
     </section>
     <section class="protection">
       <div class="protection-text">Model S</div>
       <div class="protection-bg__wordmark"></div>
-      <div class="protection__crash">
-        <div class="protection__crash-ellipse"></div>
-        <div class="protection__crash-rectangle"></div>
-        <div class="protection__crash-text">
-          <p class="protection__crash-text-about" text align: "left">Минимальный риск
-          перевернуться в аварии</p>
-        </div>
+    </section>
+    <section class="safety">
+      <h4 class="safety__title">Самый безопасный автомобиль в мире</h4>
+      <p class="safety__text">Модель S достигла наивысшей оценки
+        безопасности любого автомобиля,
+        когда-либо испытанного, и установила
+        рекорд по наименьшей вероятности
+        травмы пассажиров - от несчастны
+        случаев на переднем, боковом, заднем
+        сидении и в ДТП с переворотом авто.</p>
+      <div class="safety-rank">
+        <h4 class="safety-rank__title">Оценка защиты:</h4>
+        <ul class="safety-rank-list">
+          <li class="safety-rank-list__item">СПЕРЕДИ<img class="safety-rank-list__star" src=img\Star.png width="25" height="25" alt="star"></li>
+          <li class="safety-rank-list__item">СБОКУ</li>
+          <li class="safety-rank-list__item">СБОКУ (стойка)</li>
+          <li class="safety-rank-list__item">ВОДИТЕЛЬ</li>
+          <li class="safety-rank-list__item">ПАССАЖИР</li>
+        </ul>
       </div>
-      <div class="protection__crash">
-        <div class="protection__crash-ellipse"></div>
-        <div class="protection__crash-rectangle"></div>
-        <div class="protection__crash-text">
-          <p class="protection__crash-text-about" text align: "left">Защита от удара
-            сбоку</p>
-        </div>
-      </div>
-      <div class="protection__crash">
-        <div class="protection__crash-ellipse"></div>
-        <div class="protection__crash-rectangle"></div>
-        <div class="protection__crash-text">
-          <p class="protection__crash-text-about" text align: "left">Защита от удара
-          спереди</p>
-        </div>
+      <div class="safety-total">
+        <img class="safety-total__shield" src=img\security.png width="62" height="74" alt="shield">
+        <p class="safety-total__stars">5 звезд</p>
+        <p class="safety-total__stars-in">безопасности</p>
       </div>
     </section>
-    <section class="School">
+    <section class="order">
+      <button class="order-learn"><img class="order-learn__icon" src=img\i.png width="22" height="22" alt="icon i">УЗНАТЬ БОЛЬШЕ</button>
+      <a href="#" class="order__button">ЗАКАЗАТЬ</a>
+    </section>
+    <section class="school">
       <img class="school__label" src=img\Group.png width="93,13" height="37,77" alt="label">
     </section>
   </body>
