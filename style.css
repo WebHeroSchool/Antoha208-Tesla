@@ -5,7 +5,7 @@ h1, h3, h4,
 .information-wrap-inner__text,
 .information-wrap-inner__textin,
 .information-interior-characteristic__textin-po,
-.safety-total__stars,
+.safety-total__stars-text,
 .safety-total__stars-in,
 .protection-text,
 .protection__crash-text-about {
@@ -16,16 +16,18 @@ h1, h3, h4,
 .features-btn-test__text,
 .features-btn__order,
 .information-order,
-.order,
-.order-learn,
+.safety-order,
+.safety-order-learn,
 .information-order-learn,
-.safety-rank-list {
+.safety-rank-list,
+.safety-rank-list__item-inner {
   font-family: "Montserrat-Bold";
   font-weight: 700;
 }
 
 .main__text,
 .information__discription,
+.safety__discription,
 .safety__text {
   font-family: "Montserrat-Medium";
   font-weight: 500;
@@ -237,7 +239,6 @@ padding: 0 0px 4px 5px;
 margin: 0 auto;
 }
 
-
 .wrap-features-inner__bottom {
 font-size: 12px;
 margin: auto 0;
@@ -250,7 +251,6 @@ align-items: flex-start;
 width: 40%;
 min-width: 267px;
 margin: 0 5px;
-
 }
 
 .features-btn-test {
@@ -301,7 +301,7 @@ font-size: 20px;
 .vector {
 display: flex;
 width: 100%;
-margin: 2.7% auto;  /*было 2% закомиченно на гитхаб*/ /*margin-top: 2%*/
+margin: 2.6% auto;  /*было 2% закомиченно на гитхаб*/ /*margin-top: 2%*/
 }
 
 .vector__arrow {
@@ -316,6 +316,431 @@ margin: 0 auto;
 cursor: pointer;
 transform: translateY(8px);
 transition: 0.5s;
+}
+
+/**************************************************************************/
+/*SECOND SECTION LAPTOP*/
+
+.model {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 900px;
+  background: url("img/2013-tesla-model-s-cockpit.png") left bottom/88% no-repeat;
+}
+
+.model__title {
+  display: flex;
+  font-size: 70px;
+  color: #E51937;
+  margin-left: 5.5%;
+  margin-top: 0.91em;
+  z-index: 3;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 900px;
+  max-width: 440px;
+  background-color: #E51937;
+  color: white;
+  z-index: 2;
+}
+
+.information-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 730px;
+  max-width: 77%;
+  /*align-items: flex-start;*/
+}
+
+.information__title {
+  font-size: 30px;
+  min-height: 295px;
+  margin: 0;
+  /*margin: auto 52px;*/
+}
+
+.information__discription {
+  display: flex;
+  font-size: 15px;
+  padding-bottom: 0.5em;
+  /*margin-bottom: 0;*/
+  /*margin-top: 0em;*/
+}
+
+.information-interior {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 269px;
+  min-height: 445px;
+  /*padding-left: 52px;*/
+  /*margin: 2% 0;
+  margin-top: 0;*/
+}
+
+.information-wrap {
+  display: flex;
+  justify-content: flex-start;
+  /*align-items: center;*/
+  width: 75%;
+  min-height: 65px;
+  margin: 5% 0;
+}
+
+.information-wrap__icon-display {
+  display: flex;
+  width: 22%;
+  height: 56px;
+  align-self: flex-end;
+  background: url('img/screen.png') left bottom/contain no-repeat;
+  }
+
+.information-wrap__icon-wifi {
+  display: flex;
+  width: 23%;
+  height: 33px;
+  align-self: center;
+  background: url('img/wifi.png') left/contain no-repeat;
+  }
+
+.information-wrap__icon-bag {
+  display: flex;
+  width: 24%;
+  height: 52px;
+  align-self: center;
+  background: url('img/bag.png') left/contain no-repeat;
+  }
+
+.information-wrap-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 68%;
+  }
+
+.information-wrap-inner__text {
+  display: flex;
+  align-items: flex-end;
+  line-height: 0.9em;
+  font-size: 35px;
+  width: 85%;
+  margin: 0px;
+}
+
+.information-wrap-inner__textin {
+  font-size: 20px;
+  line-height: 0.9em;
+  align-self: flex-end;
+  min-height: 40%;
+  margin: 0 auto;
+}
+
+.information-wrap-inner__bottom {
+  font-size: 12px;
+  /*line-height: 0.95em;*/
+  margin: auto 0;
+  min-height: 40%;
+  align-items: flex-end;
+}
+
+.information-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-height: 40px;
+  width: 78%;
+  padding-bottom: 1%;
+  margin: 2% 0;
+
+}
+
+.information-order-learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.5px solid #E51937;
+  width: 50%;
+  height: 40px;
+  font-size: 13px;
+  color: white;
+  background-color: #E51937;
+}
+
+.information-order-learn__icon {
+  display: flex;
+  width: 16%;
+  height: 22px;
+  background: url('img/i.png') left/contain no-repeat;
+}
+
+.information-order__text {
+  font-size: 13px;
+}
+
+.information-btn__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 153px;
+  min-height: 37px;
+  color: white;
+  border: 2px solid white;
+  margin: 0;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* секция 3 лэптопной версии */
+
+.protection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+  /*background: url("img/Car frame group.png") 89% 55%/73% no-repeat;*/
+  z-index: 2;
+}
+
+.protection__car {
+  display: flex;
+  position: absolute;
+  width: 73%;
+  min-width: 40%;
+  height: 65%;
+  min-height: 250px;
+  top: 19.2%;
+  left: 23.9%;
+  background: url("img/Car frame group.png") 100% no-repeat;
+  z-index: 3;
+}
+
+.protection-text {
+  display: flex;
+  font-size: 200px;
+  position: absolute;
+  right: -0.5%;
+  top: 10.5%;
+  opacity: 0.2;
+  color: #E51937;
+  z-index: 1;
+}
+
+.safety {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  min-height: 900px;
+  max-width: 440px;
+  background-color: #E51937;
+  color: white;
+  z-index: 2;
+}
+
+.safety-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 770px;
+  max-width: 75%;
+  margin-top: 5.5%;
+}
+
+.safety__title {
+  font-size: 30px;
+  /*padding-left: 52px;*/
+  /*margin: 0;
+  margin-top: 0;*/
+    margin: 0.8em 0;
+    /*margin-bottom: 0;*/
+}
+
+.safety__discription {
+  display: flex;
+  font-size: 15px;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+  /*margin-top: 1em;*/
+
+}
+
+.safety-rank {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  z-index: 2;
+  min-width: 100%;
+  min-height: 70%;
+  margin-bottom: 10%;
+}
+
+.safety-rank__title {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: left;
+  align-items: center;
+  z-index: 2;
+  margin: 0.5em 0;
+  margin-bottom: 0.9em;
+}
+
+.safety-rank-box {
+  display: flex;
+  flex-direction: row;
+  width: 89%;
+  /*height: 173px;*/
+  justify-content: space-between;
+/*  margin: auto 0;*/
+}
+
+.safety-rank-list {
+  list-style: none;
+  margin: 0; /*auto;*/
+  padding: 0px;
+  font-size: 17px;
+}
+
+.safety-rank-list__item {
+  list-style: none;
+  margin: 14% auto;
+  margin-top: 0;
+}
+
+.safety-rank-list__item-inner {
+  font-size: 10px;
+  padding-left: 2%;
+}
+
+.safety-rank-stars {
+  list-style: none;
+  margin: 0; /*auto;*/
+  padding: 0px;
+  width: 48%;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.safety-rank-stars__item {
+  list-style: none;
+  height: 25px;
+  width: 100%;
+  background: url("img/Star.png") 25px space;
+  margin-bottom: 8%;
+  margin-right: 0;
+}
+
+.safety-total {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  /*align-items: center;*/
+  width: 100%;
+  min-height: 65px;
+  margin: 17% 0;
+  margin-bottom: 0;
+}
+
+.safety-total__shield {
+  display: flex;
+  width: 30%;
+  height: 74px;
+  align-self: flex-end;
+  background: url('img/security.png') 35% 100%/contain no-repeat;
+}
+
+.safety-total__stars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 68%;
+  margin: 0;
+}
+
+.safety-total__stars-text {
+  font-size: 50px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.safety-total__stars-in {
+  display: flex;
+  align-items: flex-end;
+  line-height: 0.9em;
+  font-size: 25px;
+  width: 85%;
+  margin: 0px;
+}
+
+.safety-order {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: flex-end;
+  max-height: 41px;
+  width: 84%;
+
+}
+
+.safety-order-learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.5px solid #E51937;
+  width: 50%;
+  height: 40px;
+  font-size: 13px;
+  color: white;
+  background-color: #E51937;
+}
+
+.safety-order-learn__icon {
+  display: flex;
+  width: 16%;
+  height: 22px;
+  background: url('img/i.png') left/contain no-repeat;
+}
+
+.safety-order__text {
+  font-size: 13px;
+}
+
+.safety-btn__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 37px;
+  color: white;
+  border: 2px solid white;
+  margin: 0;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.school__label {
+  display: flex;
+  align-self: flex-end;
+  width: 94px;
+  height: 38px;
+  background: url('img/Group.png') center/100% no-repeat;
+  margin: 1% auto;
+  margin-right: 1%;
 }
 
 
@@ -701,12 +1126,15 @@ body {
 
 .main__title {
   font-size: 90px;
-  margin: auto;
+  margin-bottom: 0;
+  margin-top: 0.9em;
+  line-height: 1em;
   }
 
 .main__text {
-  display: none;
-  margin: auto 0;
+  margin: 7% 0;
+  margin-top: 0;
+  line-height: 0.01em;
   }
 
 .main-bg__car {
@@ -820,7 +1248,7 @@ body {
   height: 56px;
   width: 221px;
   min-width: 150px;
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   background-color: #E51937;
   text-decoration: none;
@@ -834,7 +1262,7 @@ body {
   display: flex;
   width: 100%;
   margin-top: 9%;
-  margin-bottom: 0px;
+  margin-bottom: 8%;
   }
 
 .vector__arrow {
@@ -849,6 +1277,323 @@ body {
   cursor: pointer;
   transform: translateY(8px);
   }
+
+  /*     2 секция айпад               */
+
+.model {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-end;
+  /*width: 100%;*/
+  min-height: 990px;
+  background: url('img/2013-tesla-model-s-cockpit-ipad.png') center 1%/contain no-repeat;
+}
+
+.model__title {
+/*display: flex;*/
+/*font-size: 70px;
+color: #E51937;*/
+justify-content: flex-end;
+margin-top: 1.1%;
+margin-right: 6%;
+z-index: 3;
+}
+
+.information {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+  height: 49%;
+  min-height: 485px;
+  min-width: 100%;
+  /*background-color: #E51937;*/
+  /*color: white;*/
+  z-index: 2;
+}
+
+.information-part {
+  /*display: flex;*/
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 300px;
+  min-width: 695px;
+  margin: 1% auto;
+}
+
+.information__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 310px;
+  max-width: 317px;
+}
+
+.information__discription {
+  padding-bottom: 1.3em;
+}
+
+.information-interior {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  min-height: 265px; /*250px;*/
+  margin: 0;
+}
+
+.information-wrap {
+  display: flex;
+  /*align-items: center;*/
+  width: 91%;
+  min-height: 65px;
+  margin-bottom: 5%;
+  margin-top: 0;
+}
+
+.information-wrap-inner__text {
+  /*display: flex;
+  align-items: flex-end;
+  line-height: 1em;
+  font-size: 35px;
+  width: 85%;
+  margin: 0px;*/
+  min-height: 52%;
+}
+
+.information-wrap-inner__bottom {
+  min-height: 20%;
+}
+
+.information-order {
+  max-width: 60%;
+  margin: 4% auto;
+  margin-bottom: 0;
+}
+
+.information-wrap__icon-wifi {
+  /*align-self: center;*/
+  width: 24%;
+  height: 36px;
+  background-position: left 95%;
+  background-size: 65%;
+  margin-bottom: 6%;
+  }
+
+.information-btn__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  min-height: 53px;
+  color: white;
+  border: 2px solid white;
+  margin: 0;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.information-order-learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  border: 0.5px solid #E51937;
+  width: 50%;
+  height: 52px;
+  font-size: 16px;
+  color: white;
+  background-color: #E51937;
+}
+
+.information-order-learn__icon {
+  display: flex;
+  width: 19%;
+  height: 32px;
+  align-self: center;
+  /*background: url('img/i.png') /contain no-repeat;*/
+}
+
+.information-order__text {
+  font-size: 16px;
+}
+
+/*     3 секция айпад               */
+
+.protection {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  min-height: 1025px;
+  /*background: url("img/Car frame group ipad.png") 8% 13%/95% no-repeat;*/
+  z-index: 2;
+}
+
+.protection__car {
+  display: flex;
+  width: 98%;
+  height: 42%;
+  top: 7%;
+  left: -1%;
+  background: url("img/Car frame group ipad.png") center 100%;
+}
+
+.protection-text {
+  display: flex;
+  font-size: 148px;
+  position: relative;
+  opacity: 0.2;
+  color: #E51937;
+  z-index: 3;
+  margin-top: 5%;
+}
+
+.safety {
+  justify-content: center;
+  height: 49%;
+  min-height: 485px;
+  max-height: 488px;
+  min-width: 100%;
+}
+
+.safety-part {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 317px;
+  min-width: 695px;
+  margin: 0% auto;
+  margin-bottom: 0;
+}
+
+.safety__title {
+  font-size: 30px;
+  min-width: 316px;
+  max-width: 317px;
+  margin: 0;
+}
+
+.safety-rank {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  z-index: 2;
+  min-width: 45%;
+  min-height: 75%;
+}
+
+.safety-rank__title {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 0.9em;
+  margin-top: 0;
+  z-index: 2;
+}
+
+.safety-rank-box {
+  display: flex;
+  flex-direction: row;
+  width: 94%;
+  /*height: 173px;*/
+  justify-content: space-between;
+}
+
+.safety-rank-list {
+  list-style: none;
+  margin: 0; /*auto;*/
+  padding: 0px;
+  font-size: 17px;
+}
+
+.safety-rank-list__item {
+  list-style: none;
+  margin: 14% auto;
+  margin-top: 0;
+}
+
+.safety-rank-list__item-inner {
+  font-size: 10px;
+  padding-left: 2%;
+}
+
+.safety-rank-stars {
+  list-style: none;
+  margin: 0; /*auto;*/
+  padding: 0px;
+  width: 48%;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.safety-rank-stars__item {
+  list-style: none;
+  height: 25px;
+  width: 100%;
+  background: url("img/Star.png") 25px space;
+  margin-bottom: 8%;
+  margin-right: 0;
+}
+
+.safety-total {
+  display: none;
+}
+
+.safety-order {
+  justify-content: space-between;
+  max-width: 60%;
+  margin: 0;
+}
+
+.safety-order-learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.5px solid #E51937;
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  background-color: #E51937;
+}
+
+.safety-order-learn__icon {
+  display: flex;
+  width: 18%;
+  height: 32px;
+  background: url('img/i.png') left/contain no-repeat;
+}
+
+.safety-order__text {
+  font-size: 16px;
+}
+
+.safety-btn__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  min-height: 53px;
+  color: white;
+  border: 2px solid white;
+  margin: 0;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.school__label {
+  display: none;
+}
 }
 
 @media (max-width: 505px) {
@@ -1010,6 +1755,7 @@ body {
 .main__title {
   font-size: 50px;
   margin: 25px 0 0 0;
+  line-height: 1.3em;
   }
 
 .main__text {
@@ -1136,7 +1882,8 @@ body {
 .vector {
   display: flex;
   width: 100%;
-  margin-top: 5%;   /*изменено после отправки на проверку*/
+  margin-top: 5%;           /*изменено после отправки на проверку*/
+  margin-bottom: 0%;
   }
 
 .vector__arrow {
@@ -1151,4 +1898,158 @@ body {
   transform: translateY(8px);
   transition: 0.5s;
   }
+
+/*         секция 2 телефон    */
+
+.model {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-between;
+  align-items: flex-end;
+  /*width: 100%;*/
+  min-height: 626px;
+  background: url('img/2013-tesla-model-s-cockpit mob.png') center top/contain no-repeat;
+}
+
+.model__title {
+display: none;
+}
+
+.information {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+  height: 49%;
+  min-height: 304px;
+  min-width: 100%;
+  /*background-color: #E51937;*/
+  /*color: white;*/
+  z-index: 2;
+}
+
+.information-part {
+  justify-content: space-between;
+  align-items: flex-start;
+  /*max-height: 265px;*/
+  min-height: 231px;
+  min-width: 320px;
+  margin: 1% auto;
+  margin-top: 0;
+}
+
+.information__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 316px;
+  min-height: 265px;
+  /*margin-top: 3%;*/
+  margin-bottom: 0;
+}
+
+.information__discription {
+  padding-bottom: 0;
+  margin-top: 0em;
+}
+
+.information-interior {
+  display: none;
+}
+
+.information-wrap {
+  display: none;
+}
+
+.information-order {
+  display: none;
+}
+
+.information-btn__order {
+  display: none;
+}
+
+/*         3 секция телефон       */
+
+.protection {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  min-height: 598px;
+  max-height: 599px;
+  /*background: url("img/Car frame group ipad.png") 8% 13%/95% no-repeat;*/
+  z-index: 2;
+}
+
+.protection__car {
+  display: flex;
+  width: 98%;
+  height: 44%;
+  top: 0%;
+  left: -1%;
+  background-color: #fff;
+  background: url("img/Group 18 mob.png") center 100% no-repeat;
+}
+
+.protection-text {
+  font-size: 100px;
+  position: relative;
+  width: 110%;
+  margin-top: 6%;
+  margin-left: 4%;
+}
+
+.safety {
+  height: 49%;
+  min-height: 304px;
+  max-height: 304px;
+  min-width: 100%;
+  max-width: 375px;
+}
+
+.safety-part {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 265px;
+  min-width: 320px;
+  margin: 0% auto;
+  margin-bottom: 0;
+}
+
+.safety__title {
+  font-size: 30px;
+  min-width: 316px;
+  max-width: 317px;
+  margin: 0;
+  min-height: 265px;
+}
+
+.safety__discription {
+  padding-bottom: 0;
+/*margin-top: 0em;*/
+  margin: 4% auto;
+  margin-bottom: 0;
+
+}
+
+.safety-rank {
+  display: none;
+}
+
+.safety-total {
+  display: none;
+}
+
+.safety-order {
+  display: none;
+}
+
+.school__label {
+  display: none;
+}
 }
