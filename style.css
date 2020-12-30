@@ -86,6 +86,13 @@ transition: 0.5s;
   color: #E51937;
 }
 
+.nav-list__item-models a:visited {
+  border-bottom: 2px solid #E51937;
+  border-radius: 9%;
+  padding-bottom: 6px;
+  color: #E51937;
+}
+
 .nav-list__item-models {
   padding-left: 5px;
 }
