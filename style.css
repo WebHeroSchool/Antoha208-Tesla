@@ -79,6 +79,13 @@ text-decoration: none;
 transition: 0.5s;
 }
 
+.nav-list__item-models a:active {
+  border-bottom: 2px solid #E51937;
+  border-radius: 9%;
+  padding-bottom: 6px;
+  color: #E51937;
+}
+
 .nav-list__item-models {
   padding-left: 5px;
 }
@@ -88,15 +95,15 @@ transition: 0.5s;
   /*padding-right: 0;*/
 }
 
-/*.nav-list__item-model3 {
+.nav-list__item-model3 {
   padding-right: 25px;
 }*/
 
-.nav ul li a:hover {
+/*.nav ul li a:hover {
 border-bottom: 2px solid red;
 border-radius: 9%;
-padding-bottom: 6px;
-}
+padding-bottom: 1px;
+}*/
 
 .nav-part {
 display: flex;
@@ -219,10 +226,6 @@ width: 41%;
 transition: 0.5s;
 }
 
-.wrap-features:hover {
-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
 .wrap-features__icon-speed {
 width: 37%;
 height: 43px;
@@ -308,6 +311,8 @@ transition: 0.5s;
 }
 
 .features-btn__order:hover {
+background-color: red;
+color: white;
 transition: 0.5s;
 cursor: pointer;
 font-size: 20px;
@@ -515,6 +520,13 @@ transition: 0.5s;
   font-size: 13px;
 }
 
+.information-btn__order:hover {
+background-color: white;
+color: black;
+cursor: pointer;
+width: 120px;
+transition: 0.5s;
+}
 /* секция 3 лэптопной версии */
 
 .protection {
@@ -523,6 +535,7 @@ transition: 0.5s;
   align-items: flex-start;
   position: relative;
   width: 100%;
+  overflow-x: hidden;
   min-height: 900px;
   /*background: url("img/Car frame group.png") 89% 55%/73% no-repeat;*/
   z-index: 2;
@@ -546,6 +559,7 @@ transition: 0.5s;
   font-size: 200px;
   position: absolute;
   right: -0.5%;
+  overflow: hidden;
   top: 10.5%;
   opacity: 0.2;
   color: #E51937;
@@ -746,6 +760,14 @@ transition: 0.5s;
   margin: 0;
   text-decoration: none;
   font-size: 13px;
+}
+
+.safety-btn__order:hover {
+background-color: white;
+color: black;
+cursor: pointer;
+width: 120px;
+transition: 0.5s;
 }
 
 .school__label {
@@ -1680,6 +1702,7 @@ z-index: 3;
 }
 
 @media (max-width: 767px) {
+
 .information {
   justify-content: flex-end;
   align-items: flex-end;
@@ -1693,7 +1716,6 @@ z-index: 3;
   flex-wrap: nowrap;
   justify-content: center;
   min-width: 376px;
-  text-align: center;
   margin: 0 auto;
   margin-bottom: 7%;
 }
@@ -1701,23 +1723,19 @@ z-index: 3;
 .information-interior {
   min-width: 260px;
   min-height: 205px; /*250px;*/
-  line-height: 0.5em;
+  /*line-height: 0.5em;*/
+
   padding-left: 3%;                                 /*-*/
 }
 
-.information-wrap {                                 /**/
-  justify-content: center;
-  width: 100%;
+.information-wrap-inner {
+  justify-content: center;                    /**/
 }
 
-.information-wrap-inner {                           /**/
-  justify-content: center;
-  align-items: center;
+
 }
 
-.information-wrap-inner__text {                     /**/
-  justify-content: center;
-}
+@media (max-width: 700px) {
 
 .information-wrap-inner__textin {                  /**/
   margin: 0px;
@@ -1747,8 +1765,19 @@ z-index: 3;
   padding-left: 0;
 }
 
+.information-wrap {                                /**/
+  justify-content: center;
+  width: 100%;
+}
+
+.information-wrap-inner {                           /**/
+  justify-content: center;
+  align-items: center;
+}
+
 .information-wrap-inner__text {
   font-size: 25px;
+  justify-content: center;
   }
 
 .information-wrap-inner__textin {
@@ -2213,6 +2242,7 @@ body {
   position: relative;
   align-items: center;
   width: 100%;
+  overflow-x: hidden;
   min-height: 598px;
   max-height: 599px;
   /*background: url("img/Car frame group ipad.png") 8% 13%/95% no-repeat;*/
@@ -2233,6 +2263,7 @@ body {
   font-size: 100px;
   position: relative;
   width: 110%;
+  /*overflow-x: hidden;*/
   margin-top: 6%;
   margin-left: 4%;
 }
