@@ -64,7 +64,8 @@ background: url('img/Tesla-Wordmark-Red.png') center/contain no-repeat;
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 40%;
+width: 39%;
+min-width: 477px;
 list-style: none;
 margin: 0 auto;
 }
@@ -80,31 +81,43 @@ transition: 0.5s;
 }
 
 .nav-list__item-models a:active {
-  border-bottom: 2px solid #E51937;
-  border-radius: 9%;
-  padding-bottom: 6px;
   color: #E51937;
 }
 
-.nav-list__item-models a:visited {
+/*.nav-list__item-models a:visited {
   border-bottom: 2px solid #E51937;
   border-radius: 9%;
   padding-bottom: 6px;
   color: #E51937;
-}
+}*/
 
 .nav-list__item-models {
   padding-left: 5px;
+
+}
+
+.nav-list__item-models a {
+    color: red;
+}
+
+.nav-list__item-models-active {
+  border-bottom: 2px solid red;
+  border-radius: 9%;
+  padding-bottom: 6px;
 }
 
 .nav-list__item-modelx {
-  padding-left: 25px;
+  padding-left: 35px;
   /*padding-right: 0;*/
 }
 
 .nav-list__item-model3 {
   padding-right: 25px;
-}*/
+}
+
+.nav-list__item-modele {
+  padding-right: 10px;
+}
 
 .nav ul li a:hover {
 border-bottom: 2px solid red;
@@ -1066,6 +1079,20 @@ body {
 }
 
 @media (max-width: 1378px) {
+  .nav-list__item-models {
+    min-width: 71px;
+  }
+
+  .nav-list__item-modelx {
+    padding: 0;
+    min-width: 92px;
+  }
+
+  .nav-list__item-model3 {
+    padding: 0;
+    min-width: 90px;
+  }
+
   .protection__car {
     left: 25%;
   }
